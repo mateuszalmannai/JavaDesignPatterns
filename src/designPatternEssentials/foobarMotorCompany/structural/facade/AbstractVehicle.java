@@ -26,7 +26,7 @@ public abstract class AbstractVehicle implements Vehicle {
   }
 
   @Override
-  public void paint(Vehicle.Colour colour){
+  public void paint(Vehicle.Colour colour) {
     this.colour = colour;
   }
 
@@ -51,6 +51,6 @@ public abstract class AbstractVehicle implements Vehicle {
 
   @Override
   public void takeForTestDrive() {
-    System.out.println("Taking car for test drive.");
+    System.out.println("Taking " + this.toString().substring(0, 5) + " for test drive.");
   }
 }
