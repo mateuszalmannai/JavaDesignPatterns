@@ -9,6 +9,7 @@ public class NullObjectClient {
 
     // No need to test for null
     for (WarningLight light : lights) {
+//      if(light != null)
       light.turnOn();
       light.turnOff();
       System.out.println(light.getClass().getSimpleName() + ": " + light.isOn());
