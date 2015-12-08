@@ -11,7 +11,7 @@ import java.util.Observable;
  *
  * The inherited code that makes Observable classes work does have an
  * obvious downside; if your subject calss already extends another class
- * then you can't extend it as well, since Java only supports single inheritance
+ * then you can't extend it as well, since Java only supports single objectOrientedConcepts
  * of classes.
  */
 public class Speedometer extends Observable {
