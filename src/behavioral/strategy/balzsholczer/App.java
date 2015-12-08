@@ -1,4 +1,4 @@
-package strategy.balzsholczer;
+package behavioral.strategy.balzsholczer;
 
 /**
  * Behaviour is changed at runtime dynamically

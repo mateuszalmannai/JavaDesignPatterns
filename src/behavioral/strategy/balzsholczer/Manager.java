@@ -1,4 +1,4 @@
-package strategy.balzsholczer;
+package behavioral.strategy.balzsholczer;
 
 public class Manager implements Strategy{
 
