@@ -1,4 +1,4 @@
-package structural.balazsholczer;
+package structural.decorator.balazsholczer;
 
 /**
  * Description empty as this is just a wrapper class

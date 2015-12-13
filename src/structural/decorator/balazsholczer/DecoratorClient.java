@@ -1,4 +1,4 @@
-package structural.balazsholczer;
+package structural.decorator.balazsholczer;
 
 public class DecoratorClient {
   public static void main(String[] args) {
