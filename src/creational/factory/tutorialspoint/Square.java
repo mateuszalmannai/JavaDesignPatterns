@@ -1,4 +1,4 @@
-package creational.factoryPattern.tutorialspoint;
+package creational.factory.tutorialspoint;
 
 public class Square implements Shape {
   @Override
