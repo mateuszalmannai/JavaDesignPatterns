@@ -1,4 +1,4 @@
-package structural.facade;
+package structural.facade.balazsholczer;
 
 public interface Algorithm {
   void sort();

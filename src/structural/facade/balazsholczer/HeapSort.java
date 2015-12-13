@@ -1,6 +1,4 @@
-package structural.facade;
-
-import behavioral.templateMethod.bazhoczer.*;
+package structural.facade.balazsholczer;
 
 public class HeapSort implements Algorithm {
   @Override
