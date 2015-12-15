@@ -3,6 +3,8 @@ package structural.adpater.balazsholczer;
 
 /**
  * We hide the Vehicle properties behind the Vehicle interface
+ * and delegate to the bicycle method with the help of
+ * composition
  */
 public class BicycleAdapter implements Vehicle {
 

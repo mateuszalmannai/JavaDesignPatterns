@@ -1,4 +1,4 @@
-package behavioral.templateMethod.bazhoczer;
+package behavioral.templateMethod.balzholczer;
 
 public abstract class Algorithm {
 
