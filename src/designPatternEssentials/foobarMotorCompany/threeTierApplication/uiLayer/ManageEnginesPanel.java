@@ -36,7 +36,7 @@ public class ManageEnginesPanel extends JPanel implements EntityListener {
     buildEngineButton.addActionListener(new ActionListener() {
       @Override
       public void actionPerformed(ActionEvent e) {
-        new BuildEngineDialog(owner).show();
+        new BuildEngineDialog(owner).setVisible(true);
       }
     });
     buttonPanel.add(buildEngineButton);
@@ -48,7 +48,7 @@ public class ManageEnginesPanel extends JPanel implements EntityListener {
         try {
           BusinessFacade.INSTANCE.saveEngines();
         } catch (IOException ex) {
-          JOptionPane.showMessageDialog(null, ex, "Error", JOptionPane.ERROR_MESSAGE);
+          JOptionPane.showMessageDialog(ManageEnginesPanel.this, ex, "Error", JOptionPane.ERROR_MESSAGE);
         }
       }
     });
@@ -61,7 +61,7 @@ public class ManageEnginesPanel extends JPanel implements EntityListener {
         try {
           BusinessFacade.INSTANCE.restoreEngines();
         } catch (IOException ex) {
-          JOptionPane.showMessageDialog(null, ex, "Error", JOptionPane.ERROR_MESSAGE);
+          JOptionPane.showMessageDialog(ManageEnginesPanel.this, ex, "Error", JOptionPane.ERROR_MESSAGE);
         }
       }
     });

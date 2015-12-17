@@ -28,7 +28,7 @@ public class MonthSetupState implements ClockSetupState {
 
   @Override
   public void selectValue() {
-    System.out.println("Month set to " + month);
+    System.out.println("Month set to " + month + 1);
     clockSetup.setState(clockSetup.getDaySetupState());
   }
 
